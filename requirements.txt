@@ -1,1 +1,1 @@
-from ai_bricks.api import openai
+openai
