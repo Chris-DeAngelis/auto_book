@@ -1,5 +1,5 @@
 #Inspiration: https://github.com/prateekralhan/Streamlit-ChatGPT-DALLE-2
-from ai_bricks.api import openai
+import openai
 import streamlit as st
 
 # Authenticate API Key
