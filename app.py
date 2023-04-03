@@ -46,7 +46,7 @@ st.markdown("<h1><center><strong>Write a Children's Book with ChatGPT | DALL·E<
 #st.markdown("-----")
 
 # Input text
-input_text = st.text_area("Write and illustrate a book for toddlers that is about...", "Farm animals storming a castle on top of a mountain", height=200)
+input_text = st.text_area("Write and illustrate a book for toddlers that is about...", "A superhero bear and a couple of farm animal friends leave the farm to go visit a wizard in a faraway castle who sends them on an adventure", height=100)
 columns = st.columns((1, 1, 1)) # Centering button
 chat_button = columns[1].button(":open_book:✨ Create Book ✨:open_book:")
 chat_pages = []
