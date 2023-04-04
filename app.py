@@ -56,7 +56,7 @@ chat_response = ""
 # Execute API calls for ChatGPT and Dalle
 pretext = "Write me a children's story for kids aged 3-8 that's about "
 posttext = ". Be imaginative, creative, and include a life lesson. Describe characters' appearence in detail"
-image_disclaimer = "illustrate like a children’s book. It should be very bright, bold, and colorful. Preferably fantastical. Using vector illustrations and colored pencils. "
+image_disclaimer = "illustrate like a children’s book. It should be very bright, bold, colorful, and vibrant. Preferably fantastical and epic. Using vector illustrations. "
 if chat_button and input_text.strip() != "":
     with st.spinner("Loading..."):
             chat_response = openai_completion(pretext + input_text + posttext)
